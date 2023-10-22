@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="wlasna">
+  <grid id="27dc6" binding="zad2" layout-manager="GridLayoutManager" row-count="7" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="5" bottom="5" right="5"/>
+    <constraints>
+      <xy x="20" y="20" width="388" height="316"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="230e0" class="javax.swing.JButton" binding="dodajButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10131606"/>
+          <enabled value="true"/>
+          <foreground color="-1711409"/>
+          <text value="Dodaj"/>
+        </properties>
+      </component>
+      <component id="a7628" class="javax.swing.JButton" binding="pomnozButton">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10131606"/>
+          <enabled value="true"/>
+          <foreground color="-1711409"/>
+          <text value="Pomnóż"/>
+        </properties>
+      </component>
+      <component id="b79d5" class="javax.swing.JButton" binding="odejmijButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10131606"/>
+          <enabled value="true"/>
+          <foreground color="-1711409"/>
+          <text value="Odejmij"/>
+        </properties>
+      </component>
+      <component id="f02c5" class="javax.swing.JButton" binding="podzielButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10131606"/>
+          <enabled value="true"/>
+          <foreground color="-1711409"/>
+          <text value="Podziel"/>
+        </properties>
+      </component>
+      <component id="9980e" class="javax.swing.JButton" binding="zakonczButton">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15914192"/>
+          <font style="1"/>
+          <foreground color="-1713448"/>
+          <text value="Zakończ"/>
+        </properties>
+      </component>
+      <hspacer id="3d5dc">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="6" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="13063" class="javax.swing.JLabel" binding="pierwsza">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Podaj pierwszą liczbę"/>
+        </properties>
+      </component>
+      <component id="f5aa" class="javax.swing.JTextField" binding="polePierwszej">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ae67c" class="javax.swing.JLabel" binding="druga">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Podaj drugą liczbę"/>
+        </properties>
+      </component>
+      <component id="cb845" class="javax.swing.JLabel" binding="wynik">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Wynik"/>
+        </properties>
+      </component>
+      <component id="14b08" class="javax.swing.JTextField" binding="poleWyniku">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="6c707" class="javax.swing.JTextField" binding="poleDrugiej">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
